@@ -15,7 +15,7 @@ const products = [
         name: "Burgundy Patent Bow Pointed-Toe Heels",
         price: 899,
         category: "heels",
-        image: "images/product-1.jpg"
+        image: "product-1.jpg"
     },
 
     {
@@ -23,7 +23,7 @@ const products = [
         name: "Black Patent Bow Pointed-Toe Heels",
         price: 999,
         category: "heels",
-        image: "images/product-2.jpg"
+        image: "product-2.jpg"
     },
 
     {
@@ -31,7 +31,7 @@ const products = [
         name: "Black Patent Ankle-Strap Pointed-Toe Heels",
         price: 999,
         category: "heels",
-        image: "images/product-3.jpg"
+        image: "product-3.jpg"
     },
 
     {
@@ -39,7 +39,7 @@ const products = [
         name: "Burgundy Patent Ankle-Strap Block Heels",
         price: 949,
         category: "heels",
-        image: "images/product-4.jpg"
+        image: "product-4.jpg"
     },
 
     {
@@ -47,7 +47,7 @@ const products = [
         name: "Nude Patent Double-Strap Pointed-Toe Heels",
         price: 799,
         category: "heels",
-        image: "images/product-5.jpg"
+        image: "product-5.jpg"
     },
 
     {
@@ -55,7 +55,7 @@ const products = [
         name: "Black Patent Double-Strap Pointed-Toe Heels",
         price: 849,
         category: "heels",
-        image: "images/product-6.jpg"
+        image: "product-6.jpg"
     },
 
     {
@@ -63,7 +63,7 @@ const products = [
         name: "Pink & Blue Denim Gold-Chain Block-Heel Sandals",
         price: 749,
         category: "sandals",
-        image: "images/product-7.jpg"
+        image: "product-7.jpg"
     },
 
     {
@@ -71,7 +71,7 @@ const products = [
         name: "Black & Blue Denim Gold-Chain Block-Heel Sandals",
         price: 849,
         category: "sandals",
-        image: "images/product-8.jpg"
+        image: "product-8.jpg"
     },
 
     {
@@ -79,7 +79,7 @@ const products = [
         name: "White & Blue Denim Gold-Chain Block-Heel Sandals",
         price: 849,
         category: "sandals",
-        image: "images/product-9.jpg"
+        image: "product-9.jpg"
     },
 
     {
@@ -87,7 +87,7 @@ const products = [
         name: "Black Double-Strap Block-Heel Sandals",
         price: 899,
         category: "sandals",
-        image: "images/product-10.jpg"
+        image: "product-10.jpg"
     },
 
     {
@@ -95,7 +95,7 @@ const products = [
         name: "Nude Double-Strap Block-Heel Sandals",
         price: 899,
         category: "sandals",
-        image: "images/product-11.jpg"
+        image: "product-11.jpg"
     },
 
     {
@@ -103,7 +103,7 @@ const products = [
         name: "Pink Double-Strap Ankle-Strap Sandals",
         price: 999,
         category: "sandals",
-        image: "images/product-12.jpg"
+        image: "product-12.jpg"
     },
 
     {
@@ -111,7 +111,7 @@ const products = [
         name: "Nude Bow Block-Heel Sandals",
         price: 899,
         category: "heels",
-        image: "images/product-13.jpg"
+        image: "product-13.jpg"
     },
 
     {
@@ -119,7 +119,7 @@ const products = [
         name: "White Bow Block-Heel Sandals",
         price: 899,
         category: "heels",
-        image: "images/product-14.jpg"
+        image: "product-14.jpg"
     },
 
     {
@@ -127,7 +127,7 @@ const products = [
         name: "Beige Bow Block-Heel Sandals",
         price: 899,
         category: "heels",
-        image: "images/product-15.jpg"
+        image: "product-15.jpg"
     },
 
     {
@@ -135,7 +135,7 @@ const products = [
         name: "Black Bow Block-Heel Sandals",
         price: 899,
         category: "heels",
-        image: "images/product-16.jpg"
+        image: "product-16.jpg"
     },
 
     {
@@ -143,7 +143,7 @@ const products = [
         name: "Nude Gold-Chain Block-Heel Sandals",
         price: 949,
         category: "heels",
-        image: "images/product-17.jpg"
+        image: "product-17.jpg"
     },
 
     {
@@ -151,7 +151,7 @@ const products = [
         name: "Black Gold-Chain Block-Heel Sandals",
         price: 949,
         category: "heels",
-        image: "images/product-18.jpg"
+        image: "product-18.jpg"
     },
 
     {
@@ -159,7 +159,7 @@ const products = [
         name: "White Gold-Chain Block-Heel Sandals",
         price: 849,
         category: "sandals",
-        image: "images/product-19.jpg"
+        image: "product-19.jpg"
     },
 
     {
@@ -167,7 +167,7 @@ const products = [
         name: "Black Gold-Chain Ankle-Strap Sandals",
         price: 999,
         category: "sandals",
-        image: "images/product-20.jpg"
+        image: "product-20.jpg"
     },
 
     {
@@ -175,7 +175,7 @@ const products = [
         name: "Nude Platform Ankle-Strap Sandals",
         price: 899,
         category: "sandals",
-        image: "images/product-21.jpg"
+        image: "product-21.jpg"
     },
 
     {
@@ -183,7 +183,7 @@ const products = [
         name: "Black Rhinestone Thong Sandals",
         price: 999,
         category: "sandals",
-        image: "images/product-22.jpg"
+        image: "product-22.jpg"
     }
 
 ];
