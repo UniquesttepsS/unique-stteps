@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>UNIQUE STTEPS | Own The Walk</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- TOP BAR -->
+<div class="topbar">
+    <span>FREE SHIPPING ON ORDERS ABOVE ₹999</span>
+    <span class="topbar-hide">|</span>
+    <span class="topbar-hide">EASY RETURNS</span>
+</div>
+
+<!-- NAVBAR -->
+<header class="header">
+    <nav class="nav">
+
+        <a href="index.html" class="logo">
+            UNIQUE
+            <span>STTEPS</span>
+        </a>
+
+        <div class="navlinks">
+            <a href="index.html" class="active">HOME</a>
+            <a href="shop.html">SHOP</a>
+            <a href="about.html">ABOUT</a>
+            <a href="contact.html">CONTACT</a>
+        </div>
+
+        <div class="navicons">
+
+            <button class="icon-btn" onclick="openSearch()" aria-label="Search">
+                ⌕
+            </button>
+
+            <a href="wishlist.html" class="bag-icon">
+    ♡
+</a>
+
+            <a href="cart.html" class="cart-icon">
+                🛍
+                <span id="cartCount">0</span>
+            </a>
+
+            <button class="mobile-menu" onclick="toggleMobileMenu()">
+                ☰
+            </button>
+
+        </div>
+
+    </nav>
+
+    <div class="mobile-nav" id="mobileNav">
+        <a href="index.html">HOME</a>
+        <a href="shop.html">SHOP</a>
+        <a href="about.html">ABOUT</a>
+        <a href="contact.html">CONTACT</a>
+    </div>
+</header>
+
+
+<!-- HERO -->
+<section class="hero">
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+
+        <p class="eyebrow">THE NEW COLLECTION</p>
+
+        <h1>
+            YOUR
+            <br>
+            <i>SIGNATURE</i>
+            <br>
+            STEP.
+        </h1>
+
+        <p class="hero-description">
+            Statement footwear designed to make every step unforgettable.
+        </p>
+
+        <a href="shop.html" class="luxury-btn">
+            SHOP COLLECTION
+            <span>→</span>
+        </a>
+
+    </div>
+
+    <div class="hero-scroll">
+        <span></span>
+        SCROLL TO EXPLORE
+    </div>
+
+</section>
+
+
+<!-- INTRO -->
+<section class="intro-section">
+
+    <div class="section-label">01 — EXPLORE</div>
+
+    <div class="intro-content">
+
+        <h2>
+            Find Your
+            <em>Perfect Step.</em>
+        </h2>
+
+        <p>
+            From effortless sandals to statement heels,
+            discover footwear designed to become part of your signature style.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- CATEGORIES -->
+<section class="categories">
+
+    <a href="shop.html?cat=heels" class="category-card">
+
+        <img src="images/heels.jpg.png" alt="Heels">
+
+        <div class="category-overlay"></div>
+
+        <div class="category-content">
+
+            <span>01</span>
+
+            <h3>HEELS</h3>
+
+            <p>Explore Collection →</p>
+
+        </div>
+
+    </a>
+
+
+    <a href="shop.html?cat=sandals" class="category-card">
+
+        <img src="images/sandle.jpg.png" alt="Sandals">
+
+        <div class="category-overlay"></div>
+
+        <div class="category-content">
+
+            <span>02</span>
+
+            <h3>SANDALS</h3>
+
+            <p>Explore Collection →</p>
+
+        </div>
+
+    </a>
+
+</section>
+
+
+<!-- FEATURED PRODUCTS -->
+<section class="featured-section">
+
+    <div class="section-heading">
+
+        <div>
+
+            <p class="eyebrow dark">02 — THE COLLECTION</p>
+
+            <h2>Trending <em>Now</em></h2>
+
+        </div>
+
+        <a href="shop.html" class="text-link">
+            VIEW ALL PRODUCTS →
+        </a>
+
+    </div>
+
+    <div class="products" id="featuredProducts"></div>
+
+</section>
+
+
+<!-- EDITORIAL BANNER -->
+<section class="editorial">
+
+    <div class="editorial-image">
+        <img src="images/hero-banner.png" alt="Unique Stteps Fashion">
+    </div>
+
+    <div class="editorial-content">
+
+        <p class="eyebrow dark">03 — THE BRAND</p>
+
+        <h2>
+            Walk with
+            <em>intention.</em>
+        </h2>
+
+        <p>
+            UNIQUE STTEPS is made for women who don't simply follow
+            trends — they create their own signature.
+        </p>
+
+        <a href="about.html" class="outline-btn">
+            DISCOVER OUR STORY
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- BRAND STATEMENT -->
+<section class="statement">
+
+    <p>UNIQUE STTEPS</p>
+
+    <h2>
+        Your Signature Step.
+        <br>
+        <em>Own The Walk.</em>
+    </h2>
+
+    <a href="shop.html" class="luxury-btn light-btn">
+        SHOP NOW →
+    </a>
+
+</section>
+
+
+<!-- FOOTER -->
+<footer>
+
+    <div class="footer-top">
+
+        <div class="footer-brand">
+
+            <div class="footer-logo">
+                UNIQUE
+                <span>STTEPS</span>
+            </div>
+
+            <p>
+                Your Signature Step. Own The Walk.
+            </p>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>SHOP</h4>
+
+            <a href="shop.html?cat=heels">Heels</a>
+            <a href="shop.html?cat=sandals">Sandals</a>
+            <a href="shop.html">All Products</a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>COMPANY</h4>
+
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+            <a href="cart.html">Shopping Bag</a>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <span>© 2026 UNIQUE STTEPS</span>
+
+        <span>ALL RIGHTS RESERVED</span>
+
+    </div>
+
+</footer>
+
+
+<!-- SEARCH -->
+<div class="search-overlay" id="searchBox">
+
+    <button class="search-close" onclick="closeSearch()">×</button>
+
+    <div class="search-inner">
+
+        <span>SEARCH</span>
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Search heels, sandals..."
+        >
+
+        <div id="searchResults"></div>
+
+    </div>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Shopping Bag | UNIQUE STTEPS</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+<!-- TOP BAR -->
+
+<div class="topbar">
+    <span>FREE SHIPPING ON ORDERS ABOVE ₹999</span>
+    <span class="topbar-hide">|</span>
+    <span class="topbar-hide">EASY RETURNS</span>
+</div>
+
+
+<!-- HEADER -->
+
+<header class="header">
+
+    <nav class="nav">
+
+        <!-- LOGO -->
+
+        <a href="index.html" class="logo">
+            UNIQUE
+            <span>STTEPS</span>
+        </a>
+
+
+        <!-- NAVIGATION -->
+
+        <div class="navlinks">
+
+            <a href="index.html">
+                HOME
+            </a>
+
+            <a href="shop.html">
+                SHOP
+            </a>
+
+            <a href="about.html">
+                ABOUT
+            </a>
+
+            <a href="contact.html">
+                CONTACT
+            </a>
+
+        </div>
+
+
+        <!-- RIGHT SIDE ICONS -->
+
+        <div class="navicons">
+
+            <!-- SEARCH -->
+
+            <button
+                class="icon-btn"
+                onclick="openSearch()"
+                aria-label="Search"
+            >
+                ⌕
+            </button>
+
+
+            <!-- WISHLIST -->
+
+            <a href="wishlist.html" class="bag-icon">
+    ♡
+</a>
+
+
+            <!-- SHOPPING BAG -->
+
+            <a
+                href="cart.html"
+                class="cart-icon"
+                aria-label="Shopping Bag"
+            >
+                🛍
+                <span id="cartCount">0</span>
+            </a>
+
+        </div>
+
+    </nav>
+
+</header>
+
+
+
+<!-- CART PAGE -->
+
+<main class="cart-page">
+
+
+    <!-- PAGE HEADING -->
+
+    <div class="page-intro">
+
+        <p class="eyebrow dark">
+            YOUR SELECTION
+        </p>
+
+        <h1>
+            Shopping <em>Bag.</em>
+        </h1>
+
+    </div>
+
+
+
+    <!-- CART CONTENT -->
+
+    <div class="cart-layout">
+
+
+        <!-- CART PRODUCTS -->
+
+        <div id="cartItems"></div>
+
+
+
+        <!-- ORDER SUMMARY -->
+
+        <aside class="cart-summary">
+
+            <p class="eyebrow dark">
+                ORDER SUMMARY
+            </p>
+
+
+            <div class="summary-line">
+
+                <span>
+                    Subtotal
+                </span>
+
+                <strong id="subtotal">
+                    ₹0
+                </strong>
+
+            </div>
+
+
+            <div class="summary-line">
+
+                <span>
+                    Shipping
+                </span>
+
+                <span>
+                    FREE
+                </span>
+
+            </div>
+
+
+            <div class="summary-total">
+
+                <span>
+                    TOTAL
+                </span>
+
+                <strong id="total">
+                    ₹0
+                </strong>
+
+            </div>
+
+
+            <button
+                class="checkout-btn"
+                onclick="checkout()"
+            >
+                PROCEED TO CHECKOUT →
+            </button>
+
+
+            <p class="secure-text">
+                Secure checkout · Easy returns
+            </p>
+
+        </aside>
+
+    </div>
+
+</main>
+
+
+
+<!-- FOOTER -->
+
+<footer>
+
+    <div class="footer-top">
+
+        <div class="footer-brand">
+
+            <div class="footer-logo">
+                UNIQUE
+                <span>STTEPS</span>
+            </div>
+
+            <p>
+                Your Signature Step. Own The Walk.
+            </p>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>
+                SHOP
+            </h4>
+
+            <a href="shop.html?cat=heels">
+                Heels
+            </a>
+
+            <a href="shop.html?cat=sandals">
+                Sandals
+            </a>
+
+            <a href="shop.html">
+                All Products
+            </a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>
+                COMPANY
+            </h4>
+
+            <a href="about.html">
+                About Us
+            </a>
+
+            <a href="contact.html">
+                Contact
+            </a>
+
+            <a href="cart.html">
+                Shopping Bag
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <span>
+            © 2026 UNIQUE STTEPS
+        </span>
+
+        <span>
+            ALL RIGHTS RESERVED
+        </span>
+
+    </div>
+
+</footer>
+
+
+
+<!-- SEARCH POPUP -->
+
+<!-- Abhi ye existing JS ke saath kaam karega -->
+
+<div
+    class="search-overlay"
+    id="searchBox"
+>
+
+    <button
+        class="search-close"
+        onclick="closeSearch()"
+    >
+        ×
+    </button>
+
+
+    <div class="search-inner">
+
+        <span>
+            SEARCH
+        </span>
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Search heels, sandals..."
+        >
+
+
+        <div id="searchResults"></div>
+
+    </div>
+
+</div>
+
+
+
+<!-- JAVASCRIPT -->
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
